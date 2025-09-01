@@ -8,7 +8,7 @@ def home(request):
     else:
         city = 'Ujjain'
 
-    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=02558e7431818066156e0be688575dde'
+    url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&{Your API}
     PARAMS = {'units': 'metric'}
 
     try:
